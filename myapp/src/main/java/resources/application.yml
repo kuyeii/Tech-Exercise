@@ -1,0 +1,11 @@
+###################  run port  ###################
+server:
+  port: 8080
+
+###################  spring boot configure  ####################
+spring:
+  mvc:
+    static-path-pattern: /static/**
+    view:
+      prefix: /templates/
+      suffix: .html
