@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body, html {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+body {
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+div, span {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+
+input, button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+input {
+    width: 100%;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.ver-info {
+    width: 90%;
+    background: -webkit-linear-gradient(bottom, #c1c1b6, #e6e6e4);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.ver-info .pp {
+    padding: 40px 20px;
+}
+
+.ver-info .pp-1 {
+    padding: 30px 20px;
+}
+
+.ver-info .m-b {
+    margin-bottom: 10px;
+}
+
+.ver-info input {
+    width: 100%;
+    padding: 14px 0 14px 10px;
+    box-sizing: border-box;
+}
+
+.ver-info input::-webkit-input-placeholder {
+    color: #8a8a8a;
+}
+
+.ver-info .p-code {
+    width: 100px;
+    background: #52756f;
+    margin-left: 10px;
+    color: #ffffff;
+    padding: 14px 0;
+    cursor: pointer;
+}
+.ver-info .p-code:hover {
+    background: #3b7075;
+    color: #a0a0a0;
+}
+.ver-info .text {
+    font-size: 1.5rem;
+    line-height: 18px;
+    border-radius: 3px;
+}
+
+.submit-button {
+    text-align: center;
+    margin-top: 35px;
+}
